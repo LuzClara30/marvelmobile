@@ -1,0 +1,28 @@
+{
+  "name": "marvelmobile",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~48.0.11",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "expo-updates": "~0.16.4",
+    "expo-auth-session": "~4.0.3",
+    "expo-web-browser": "~12.1.1",
+    "expo-random": "~13.1.1",
+    "expo-splash-screen": "~0.18.1",
+    "react-native-web": "~0.18.10",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^18.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
